@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+            About
+        </title>
+
+        <section class="header">
+            <!-- The HTML <section> tag is used to define sections in a document. When you put your content on a web page, it may contains many chapters, headers, footers -->
+                <nav>
+                    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <!-- cross symbol(i) -->
+                        <!-- these are menu -->
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="about.html" target="_blank">ABOUT</a></li>
+                        <li><a href="">EVENT</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                    <!-- menu icon -->
+                </nav>
+        <div class="text-box">
+            <h1>Welcome to Web-Desining Event </h1>
+            <p>Making website is now one of the easiest thing in the world. You
+                just need to learn HTML, CSS,<br> Javascript and you are good to go.
+            </p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>        
+        </section>
+
+        <style>
+            .header{
+            min-height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.png);
+            /*  The linear-gradient() function sets a linear gradient as the background image. */
+            background-position: center;
+            background-size: cover;
+            /* cover makes the background image as large as possible such that it will fill the entire background area leaving no gaps */
+            position: relative;
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+        
+    </body>
+</html>
